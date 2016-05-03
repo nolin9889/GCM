@@ -1,36 +1,55 @@
 {
   "project_info": {
-    "project_id": "gcm-test1-1289",
-    "project_number": "813916479990",
-    "name": "gcm-test1"
+    "project_number": "29492937347",
+    "project_id": "lab-5-second-try"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:813916479990:android:40bd9973174263d2",
-        "client_id": "android:com.example.agneev.gcm_test",
-        "client_type": 1,
+        "mobilesdk_app_id": "1:29492937347:android:27d689d63f1b7a06",
         "android_client_info": {
-          "package_name": "com.example.agneev.gcm_test",
-          "certificate_hash": []
+          "package_name": "com.google.samples.quickstart.signin"
         }
       },
       "oauth_client": [],
-      "api_key": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Gs1cgwZc4AU3kRizqpiSrpgsgzA1CNI"
+        }
+      ],
       "services": {
         "analytics_service": {
           "status": 1
-        },
-        "cloud_messaging_service": {
-          "status": 2,
-          "apns_config": []
         },
         "appinvite_service": {
           "status": 1,
           "other_platform_oauth_client": []
         },
-        "google_signin_service": {
+        "ads_service": {
           "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29492937347:android:40bd9973174263d2",
+        "android_client_info": {
+          "package_name": "com.example.agneev.gcm_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Gs1cgwZc4AU3kRizqpiSrpgsgzA1CNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 1
@@ -38,6 +57,5 @@
       }
     }
   ],
-  "client_info": [],
-  "ARTIFACT_VERSION": "1"
+  "configuration_version": "1"
 }
